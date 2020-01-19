@@ -1,0 +1,14 @@
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData.deps.json
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData.runtimeconfig.json
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData.runtimeconfig.dev.json
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/SyncData.pdb
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.csprojAssemblyReference.cache
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.AssemblyInfoInputs.cache
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.AssemblyInfo.cs
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.pdb
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.CopyComplete

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncData", "SyncData\SyncData.csproj", "{5DECB260-0847-4C63-A8E0-7C4F9AC58591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EBFFE5A9-A86A-46EF-8663-D5FCC433F7B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDataTest", "SyncDataTest\SyncDataTest.csproj", "{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DECB260-0847-4C63-A8E0-7C4F9AC58591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DECB260-0847-4C63-A8E0-7C4F9AC58591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DECB260-0847-4C63-A8E0-7C4F9AC58591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DECB260-0847-4C63-A8E0-7C4F9AC58591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50AC4DB3-FAF6-4D90-AAAB-8C758DD42058} = {EBFFE5A9-A86A-46EF-8663-D5FCC433F7B3}
+	EndGlobalSection
+EndGlobal
