@@ -1,4 +1,4 @@
-namespace SyncData
+namespace SyncData.Common
 {
     public static class ActionRegex
     {

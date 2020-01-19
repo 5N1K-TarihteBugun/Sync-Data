@@ -13,9 +13,19 @@
       <e p="History.5N1K.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="SyncData" t="IncludeRecursive">
-        <e p="Action.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="DateFormat.cs" t="Include" />
+        <e p="Common" t="Include">
+          <e p="ActionRegex.cs" t="Include" />
+          <e p="DateFormat.cs" t="Include" />
+          <e p="DateFormatExtension.cs" t="Include" />
+          <e p="WebDocument.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="ActionType.cs" t="Include" />
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="History.cs" t="Include" />
+          <e p="LanguageType.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -25,10 +35,10 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="SyncData.csproj" t="IncludeRecursive" />
-        <e p="WebDocument.cs" t="Include" />
       </e>
       <e p="SyncDataTest" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DataTest.cs" t="Include" />
         <e p="DateFormatTest.cs" t="Include" />
         <e p="HtmlContentTest.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">

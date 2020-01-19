@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using SyncData;
+using SyncData.Common;
 using Xunit;
 
 namespace SyncDataTest

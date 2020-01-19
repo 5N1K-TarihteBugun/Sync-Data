@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using SyncData;
+using SyncData.Common;
 using Xunit;
 
 namespace SyncDataTest
@@ -29,7 +30,7 @@ namespace SyncDataTest
             var dateFormat = new DateFormat("tr-Tr");
 
             // Act
-            IList<string> days = dateFormat.GetDaysOfYear(year: 2012);
+            IList<DateTime> days = dateFormat.GetDaysOfYear(year: 2012);
 
             // Assert
             Assert.Equal(366, days.Count);
@@ -42,7 +43,7 @@ namespace SyncDataTest
             var dateFormat = new DateFormat("tr-Tr");
 
             // Act
-            IList<string> days = dateFormat.GetDaysOfYear(year: 2013);
+            IList<DateTime> days = dateFormat.GetDaysOfYear(year: 2013);
 
             // Assert
             Assert.Equal(365, days.Count);

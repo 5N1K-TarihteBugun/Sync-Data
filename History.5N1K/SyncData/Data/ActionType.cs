@@ -1,6 +1,6 @@
 namespace SyncData.Data
 {
-    public enum Action
+    public enum ActionType
     {
         Event = 1,
         Birth = 2,

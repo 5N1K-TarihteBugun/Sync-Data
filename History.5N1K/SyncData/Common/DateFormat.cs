@@ -1,10 +1,9 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace SyncData
+namespace SyncData.Common
 {
     public class DateFormat
     {
@@ -17,17 +16,22 @@ namespace SyncData
 
         public string GetDay(int year, int month, int day)
         {
-            return new DateTime(year, month, day).ToString("d_MMMM", new CultureInfo(_culture));
+            return new DateTime(year, month, day).ToWikiFormat(_culture);
         }
-        
-        public IList<string> GetDaysOfYear(int year)
+
+        public string ToWikiFormat(DateTime date)
         {
-            var days = new List<string>();
+            return date.ToWikiFormat(_culture);
+        }
+
+        public IList<DateTime> GetDaysOfYear(int year)
+        {
+            var days = new List<DateTime>();
 
             for (var month = 1; month <= 12; month++)
             {
                 var day = Enumerable.Range(1, DateTime.DaysInMonth(year, month))
-                    .Select(day => GetDay(year, month, day));
+                    .Select(day => new DateTime(year, month, day));
                 days.AddRange(day);
             }
 

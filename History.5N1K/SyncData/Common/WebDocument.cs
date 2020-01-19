@@ -1,6 +1,6 @@
 using HtmlAgilityPack;
 
-namespace SyncData
+namespace SyncData.Common
 {
     public class WebDocument
     {
