@@ -39,6 +39,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.17, )"

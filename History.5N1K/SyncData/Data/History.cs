@@ -1,15 +1,17 @@
 using System;
+using Newtonsoft.Json;
 
 namespace SyncData.Data
 {
     public class History : BaseEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Title { get; set; }
-        public string Summary { get; set; }
+        //public string Summary { get; set; }
         public string FullContent { get; set; }
         public byte ActionTypeId { get; set; }
 
+        [JsonIgnore]
         public ActionType ActionType
         {
             get => (ActionType) ActionTypeId;
@@ -18,13 +20,14 @@ namespace SyncData.Data
 
         public byte LanguageTypeId { get; set; }
 
+        [JsonIgnore]
         public LanguageType LanguageType
         {
             get => (LanguageType) LanguageTypeId;
             set => LanguageTypeId = (byte) value;
         }
 
-
+        [JsonIgnore]
         public DateTime HistoryDate
         {
             get => new DateTime(HistoryYear,HistoryMonth,HistoryDay);

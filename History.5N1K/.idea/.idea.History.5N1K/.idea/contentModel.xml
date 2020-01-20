@@ -18,6 +18,7 @@
           <e p="ActionRegex.cs" t="Include" />
           <e p="DateFormat.cs" t="Include" />
           <e p="DateFormatExtension.cs" t="Include" />
+          <e p="GraphClient.cs" t="Include" />
           <e p="WebDocument.cs" t="Include" />
         </e>
         <e p="Data" t="Include">

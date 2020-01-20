@@ -1,137 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e2b9b6-ec2d-455f-9b71-cd773709144d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/History.5N1K.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Common/ActionRegex.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Common/DateFormat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Common/DateFormatExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Common/WebDocument.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Data/ActionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Data/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Data/History.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Data/LanguageType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/SyncData.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncData/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/DataTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/DateFormatTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/HtmlContentTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/SyncDataTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncData.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncDataTest.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncDataTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncDataTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncDataTest.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/SyncDataTest.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.assert.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.execution.dotnet.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SyncDataTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SyncData/Common/GraphClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.History.5N1K/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/Data/History.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/Data/History.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/SyncData.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/SyncData.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/Debug/netcoreapp3.1/SyncData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/SyncData.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SyncData/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SyncData/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,9 +37,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SyncData/Common/DateFormatExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SyncData/Common/DateFormat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SyncDataTest/HtmlContentTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SyncDataTest/DataTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SyncData/Common/GraphClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SyncData/Common/WebDocument.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SyncDataTest/DateFormatTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -186,6 +76,7 @@
         <option value="$PROJECT_DIR$/SyncDataTest/DateFormatTest.cs" />
         <option value="$PROJECT_DIR$/SyncDataTest/DataTest.cs" />
         <option value="$PROJECT_DIR$/SyncData/Common/DateFormat.cs" />
+        <option value="$PROJECT_DIR$/SyncData/Common/GraphClient.cs" />
         <option value="$PROJECT_DIR$/SyncData/Data/History.cs" />
         <option value="$PROJECT_DIR$/SyncData/Program.cs" />
       </list>
@@ -275,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579461304889</updated>
-      <workItem from="1579461310458" duration="9476000" />
+      <workItem from="1579461310458" duration="12629000" />
     </task>
     <servers />
   </component>
@@ -360,29 +251,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SyncData/Program.cs</url>
-          <line>12</line>
-          <properties documentPath="$PROJECT_DIR$/SyncData/Program.cs" initialLine="12">
-            <startOffsets>
-              <option value="286" />
-            </startOffsets>
-            <endOffsets>
-              <option value="348" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SyncData/Program.cs</url>
-          <line>42</line>
+          <line>48</line>
           <properties documentPath="$PROJECT_DIR$/SyncData/Program.cs" initialLine="42">
             <startOffsets>
-              <option value="1473" />
+              <option value="1740" />
             </startOffsets>
             <endOffsets>
-              <option value="1474" />
+              <option value="1741" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SyncData/Common/GraphClient.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/SyncData/Common/GraphClient.cs" initialLine="47">
+            <startOffsets>
+              <option value="1138" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1159" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

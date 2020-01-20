@@ -12,3 +12,6 @@
 /Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll
 /Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/obj/Debug/netcoreapp3.1/SyncData.csproj.CopyComplete
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/GraphQL.Client.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/GraphQL.Common.dll
+/Users/cagdaskarademir/Projects/Private/5N1K/Sync-Data/History.5N1K/SyncData/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
