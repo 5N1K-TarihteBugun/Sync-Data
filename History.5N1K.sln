@@ -8,9 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Test", "src\Sync.Test\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Business", "src\Sync.Business\Sync.Business.csproj", "{EA84BD35-2762-4E2C-893D-ADFBF7E84E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Common", "Sync.Common\Sync.Common.csproj", "{2FB2BF80-558D-4E36-8045-62F3A64D9EF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Common", "src\Sync.Common\Sync.Common.csproj", "{2FB2BF80-558D-4E36-8045-62F3A64D9EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Model", "Sync.Model\Sync.Model.csproj", "{2CCEBD37-C319-4A2C-A8D6-5526EFE22F0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sync.Model", "src\Sync.Model\Sync.Model.csproj", "{2CCEBD37-C319-4A2C-A8D6-5526EFE22F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
