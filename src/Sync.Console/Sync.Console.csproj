@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+        <PackageReference Include="Npgsql" Version="4.1.2" />
+        <PackageReference Include="SqlKata" Version="1.1.7" />
+        <PackageReference Include="SqlKata.Execution" Version="1.1.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Sync.Common\Sync.Common.csproj" />
+      <ProjectReference Include="..\Sync.Business\Sync.Business.csproj" />
+    </ItemGroup>
+
+</Project>

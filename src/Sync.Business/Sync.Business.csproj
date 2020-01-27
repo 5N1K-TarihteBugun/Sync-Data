@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Sync.Common\Sync.Common.csproj" />
+      <ProjectReference Include="..\..\Sync.Model\Sync.Model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SqlKata" Version="1.1.7" />
+      <PackageReference Include="SqlKata.Execution" Version="1.1.7" />
+    </ItemGroup>
+
+</Project>
