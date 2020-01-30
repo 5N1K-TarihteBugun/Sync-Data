@@ -1,4 +1,4 @@
-namespace Sync.Model
+namespace Sync.Console.Model
 {
     public enum ActionType
     {

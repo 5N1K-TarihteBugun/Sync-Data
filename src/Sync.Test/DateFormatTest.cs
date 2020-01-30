@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using Sync.Common;
 using Xunit;
 
@@ -20,7 +18,7 @@ namespace Sync.Test
             Assert.Equal("1_Ocak", date);
             Assert.NotEqual("1_January", date);
         }
-        
+
         [Fact]
         public void Get_Days_DaysOf2012()
         {
@@ -28,12 +26,12 @@ namespace Sync.Test
             var dateFormat = new CustomDateFormat("tr-Tr");
 
             // Act
-            IList<DateTime> days = dateFormat.GetDaysOfYear(year: 2012);
+            var days = dateFormat.GetDaysOfYear(2012);
 
             // Assert
             Assert.Equal(366, days.Count);
         }
-        
+
         [Fact]
         public void Get_Days_DaysOf2013()
         {
@@ -41,7 +39,7 @@ namespace Sync.Test
             var dateFormat = new CustomDateFormat("tr-Tr");
 
             // Act
-            IList<DateTime> days = dateFormat.GetDaysOfYear(year: 2013);
+            var days = dateFormat.GetDaysOfYear(2013);
 
             // Assert
             Assert.Equal(365, days.Count);

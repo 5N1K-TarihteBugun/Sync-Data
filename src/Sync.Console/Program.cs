@@ -1,76 +1,94 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using NLog;
+using NLog.Extensions.Logging;
 using Npgsql;
 using SqlKata.Compilers;
 using SqlKata.Execution;
-using Sync.Business;
 using Sync.Common;
-using Sync.Model;
+using Sync.Console.Business;
+using LogLevel = Microsoft.Extensions.Logging.LogLevel;
 
 namespace Sync.Console
 {
-    class Program
+    internal class Program
     {
-        static async Task Main(string[] args)
+        private static async Task Main(string[] args)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json",true,true);
+            var logger = LogManager.GetCurrentClassLogger();
 
-            var configuration = builder.Build();
-            
-            var serviceProvider = new ServiceCollection()
-                .AddSingleton<ICustomDateFormat, CustomDateFormat>(provider => new CustomDateFormat("tr-TR"))
-                .AddSingleton<WebDocument>()
-                .AddTransient<ISyncService, SyncService>()
-                .AddScoped(arg =>
-                {
-                    DefaultTypeMap.MatchNamesWithUnderscores = true;
+            try
+            {
+                var builder = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json", true, true);
 
-                    var connectionString = configuration.GetConnectionString("Database");
-                    
-                    var connection = new NpgsqlConnection(connectionString);
+                var configuration = builder.Build();
 
-                    var compiler = new PostgresCompiler();
-
-                    var queryFactory = new QueryFactory(connection, compiler)
+                var serviceProvider = new ServiceCollection()
+                    .AddSingleton<ICustomDateFormat, CustomDateFormat>(provider => new CustomDateFormat("tr-TR"))
+                    .AddSingleton<WebDocument>()
+                    .AddTransient<ISyncService, SyncService>()
+                    .AddSingleton(arg =>
                     {
-                        Logger = compiled => { System.Console.WriteLine(compiled.ToString()); }
-                    };
-                    
-                    return queryFactory;
-                })
-                .AddSingleton(typeof(ProjectSettings), delegate
+                        DefaultTypeMap.MatchNamesWithUnderscores = true;
+
+                        var connectionString = configuration.GetConnectionString("Database");
+
+                        var connection = new NpgsqlConnection(connectionString);
+
+                        var compiler = new PostgresCompiler();
+
+                        var queryFactory = new QueryFactory(connection, compiler)
+                        {
+                            Logger = compiled => { System.Console.WriteLine(compiled.ToString()); }
+                        };
+
+                        return queryFactory;
+                    })
+                    .AddSingleton(typeof(ProjectSettings),
+                        delegate { return configuration.GetSection("ProjectSetting").Get<ProjectSettings>(); })
+                    .AddLogging(loggingBuilder =>
+                    {
+                        loggingBuilder.ClearProviders();
+                        loggingBuilder.SetMinimumLevel(LogLevel.Trace);
+                        loggingBuilder.AddNLog(configuration);
+                    })
+                    .BuildServiceProvider();
+
+                var syncService = serviceProvider.GetService<ISyncService>();
+
+                var datesOfYear = syncService.GetDaysOfYears(new[]
                 {
-                    return configuration.GetSection("ProjectSetting").Get<ProjectSettings>();
-                })
-                .BuildServiceProvider();
+                    2012,
+                    2013,
+                    2014,
+                    2015,
+                    2016,
+                    2017,
+                    2018,
+                    2019,
+                    2020
+                });
 
-            var syncService = serviceProvider.GetService<ISyncService>();
-
-            var datesOfYear = syncService.GetDaysOfYears(new[]
+                foreach (var date in datesOfYear)
+                {
+                    await syncService.SyncData(date);
+                }
+            }
+            catch (Exception ex)
             {
-                2012,
-                2013,
-                2014,
-                2015,
-                2016,
-                2017,
-                2018,
-                2019,
-                2020
-            });
-
-            foreach (var date in datesOfYear)
+                logger.Error(ex, "Exception");
+                throw;
+            }
+            finally
             {
-                await syncService.SyncData(date);
-
-
+                LogManager.Shutdown();
             }
         }
     }

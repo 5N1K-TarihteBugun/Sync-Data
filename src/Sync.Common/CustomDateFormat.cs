@@ -29,10 +29,7 @@ namespace Sync.Common
         {
             var allDaysOfYears = new List<DateTime>();
 
-            foreach (var year in years)
-            {
-                allDaysOfYears.AddRange(GetDaysOfYear(year));
-            }
+            foreach (var year in years) allDaysOfYears.AddRange(GetDaysOfYear(year));
 
             return allDaysOfYears;
         }

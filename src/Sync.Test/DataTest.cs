@@ -4,7 +4,6 @@ namespace Sync.Test
     {
         public void GetEvents()
         {
-            
         }
     }
 }

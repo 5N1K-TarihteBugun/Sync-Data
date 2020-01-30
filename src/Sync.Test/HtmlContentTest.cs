@@ -16,7 +16,7 @@ namespace Sync.Test
             var htmlDoc = new WebDocument();
 
             // Act
-            var itemList = htmlDoc.GetSelectNodes(url: url, regex);
+            var itemList = htmlDoc.GetSelectNodes(url, regex);
 
             // Assert
             Assert.NotEmpty(itemList);
